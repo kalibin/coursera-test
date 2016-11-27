@@ -2,6 +2,8 @@ body{
 	font-size: 16px;
 	font-family: 'Oxygen', sans-serif;
 }
+
+/** HEADER **/
 #header-nav{
 	background-color: #f6b319;
 	border-radius: 0;
@@ -22,3 +24,47 @@ body{
 	line-height: .75;
 	vertical-align: middle;
 }
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951c49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #e7e7e7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -40px;
+}
+hr.visible-xs{
+	margin: 10px;
+}
+/** END HEADER **/
+
+/** CONTENT **/
+h1.text-center{
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.block{
+	margin-bottom: 20px;
+}
+.block section{
+	background-color: #dddddd;
+	padding-top: 5px;
+}
+.block section h3{
+	text-align: center;
+}
+.block section p{
+	padding: 15px;
+}
+section a{
+	color: #951c49
+}
+/** END CONTENT **/
